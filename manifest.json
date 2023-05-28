@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Nepremicnine.net",
+    "version":"1.0",
+    "content_scripts": [
+        {
+            "matches":["https://www.nepremicnine.net/oglasi-prodaja/*","http://localhost/*"],
+            "js":["dist/source.js"],
+            "css":["style.css"]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ]
+}
